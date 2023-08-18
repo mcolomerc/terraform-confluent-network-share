@@ -32,6 +32,7 @@ module "network_sharing" {
     confluent.confluent_cloud = confluent.confluent_cloud 
   }
   confluent_cloud_network_ids = local.networks #`[ "n-61rw8d", "n-pd05xr" ]`
+}
 ```
 
 
