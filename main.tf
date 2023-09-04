@@ -7,6 +7,6 @@ module "sharing" {
   networks    = each.value
   environment = var.environment
   providers = {
-    confluent = confluent.confluent_cloud
+    confluent = confluent
   }
 }
